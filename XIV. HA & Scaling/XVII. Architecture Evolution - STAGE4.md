@@ -46,7 +46,7 @@ This stage evolves the architecture by:
 1. Note the EFS File System ID
 2. Open Systems Manager and go to Parameter Store
 3. Create parameter:
-   - Name: `/A4L/WordPress/EFSFSID`
+   - Name: `/A4L/Wordpress/EFSFSID`
    - Description: "File system ID for WordPress content (wp-content)"
    - Type: String
    - Value: _the copied file system ID_
